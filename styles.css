@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "Kurdistan24-22-3-2023-Regular";
+    src        : url("./Kurdistan24-22-3-2023-Regular.otf") format("opentype");
+    font-weight: normal;
+    font-style : normal;
+}
+
+@font-face {
+    font-family: "Kurdistan24-22-3-2023-Bold";
+    src        : url("./Kurdistan24-22-3-2023-Bold.otf") format("opentype");
+    font-weight: bold;
+    font-style : normal;
+}
+
+body {
+    display         : flex;
+    flex-direction  : column;
+    align-items     : center;
+    justify-content : center;
+    min-height      : 100vh;
+    margin          : 0;
+    background-color: #fff;
+    padding         : 50px 0;
+    font-family: "Kurdistan24-22-3-2023-Regular";
+}
+
+.logo-container {
+    margin-bottom: 20px;
+}
+
+.social-media-container {
+    display       : flex;
+    width         : 100%;
+    padding       : 20px 0;
+    flex-direction: column;
+    align-content : center;
+    align-items   : center;
+}
+
+.social-media-button {
+    align-items    : center;
+    text-decoration: none;
+    margin         : 2px 0;
+}
+
+
+@media (max-width: 768px) {
+    .social-media-container {
+        justify-content: center;
+    }
+
+    .store-links-container {
+        justify-content: center;
+    }
+}
